@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/755143204d.js" crossorigin="anonymous"></script>
+    <script src="jscode.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="head"></div>
+    <div class="main-container">
+        <div class="calc-container">
+            <div class="top-container">
+                <p class="brand">Ca$$$io</p>
+                <div class="screen-box">
+                    <div data-current-operand class="screen-top">0</div>
+                    <div data-previous-operand class="screen-bottom"></div>
+                </div>
+            </div>    
+            <div class="button-container">
+                <div class="button-row">
+                    <button data-all-clear class="calc-btn ac" value="Escape">AC</button>
+                    <button data-delete class="calc-btn delete" value="Backspace"><i class="fa-solid fa-delete-left"></i></button>
+                    <button data-operation class="calc-btn operator" value="÷"><i class="fa-solid fa-divide" aria-hidden="true"></i></button>
+                </div>
+                <div class="button-row">
+                    <button data-number class="calc-btn number" value="7">7</button>
+                    <button data-number class="calc-btn number" value="8">8</button>
+                    <button data-number class="calc-btn number" value="9">9</button>
+                    <button data-operation class="calc-btn operator" value="x"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+                </div>
+                <div class="button-row">
+                    <button data-number class="calc-btn number" value="4">4</button>
+                    <button data-number class="calc-btn number" value="5">5</button>
+                    <button data-number class="calc-btn number" value="6">6</button>
+                    <button data-operation class="calc-btn operator" value="-"><i class="fa-solid fa-minus" aria-hidden="true"></i></button>
+                </div>
+                <div class="button-row">
+                    <button data-number class="calc-btn number" value="1">1</button>
+                    <button data-number class="calc-btn number" value="2">2</button>
+                    <button data-number class="calc-btn number" value="3">3</button>
+                    <button data-operation class="calc-btn operator" value="+"><i class="fa-solid fa-plus" aria-hidden="true"></i></button>
+                </div>
+                <div class="button-row">
+                    <button data-number class="calc-btn operator" value=".">.</button>
+                    <button data-number class="calc-btn number" value="0">0</button>
+                    <button data-equals class="calc-btn equals" value="="><i class="fa-solid fa-equals" aria-hidden="true"></i></button>
+                </div>            
+            </div>
+        </div>    
+    </div>
+    <div class="footer">
+        <p class="attribution">
+            Coded by
+            <a class="attribution-link" href="https://github.com/WineryDog">
+              <i class="fa-brands fa-github"></i>
+              WineryDog
+            </a>
+          </p>
+    </div>    
+</body>
+</html>
